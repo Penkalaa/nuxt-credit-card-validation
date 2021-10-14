@@ -1,6 +1,6 @@
 {
   "name": "nuxt-credit-card-validation",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Vue/Nuxt credit card validation",
   "main": "index.js",
   "scripts": {
