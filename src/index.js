@@ -5,7 +5,7 @@ const VueCardFormat = {
   install(vue, opts) {
     // provide plugin to Vue
     vue.prototype.$cardFormat = format;
-    vue.prototype.$cardFormat = validation;
+    vue.prototype.$cardValidation = validation;
     // provide directive
     vue.directive('cardformat', {
       bind(el, binding, vnode) {
