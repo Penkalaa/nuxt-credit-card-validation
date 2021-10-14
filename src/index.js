@@ -1,9 +1,11 @@
 import { default as format } from './format.js';
+import { default as validation } from './validation.js';
 
 const VueCardFormat = {
   install(vue, opts) {
     // provide plugin to Vue
     vue.prototype.$cardFormat = format;
+    vue.prototype.$cardFormat = validation;
     // provide directive
     vue.directive('cardformat', {
       bind(el, binding, vnode) {
